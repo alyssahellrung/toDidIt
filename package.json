@@ -28,8 +28,13 @@
     "url": "https://github.com/alyssahellrung/toDidIt/issues"
   },
   "homepage": "https://github.com/alyssahellrung/toDidIt#readme",
+  "devDependencies": {
+    "concurrently": "^5.3.0",
+    "nodemon": "^2.0.4"
+  },
   "dependencies": {
     "axios": "^0.20.0",
+    "bootstrap": "^4.5.2",
     "dotenv": "^8.2.0",
     "express": "^4.17.1",
     "if-env": "^1.0.4",
