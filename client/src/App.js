@@ -3,7 +3,6 @@ import { BrowserRouter as Router, Route, Link } from "react-router-dom";
 import CreateTodids from "./components/CreateTodids";
 import EditTodids from "./components/EditTodids";
 import TodidsList from "./components/TodidsList";
-// import logo from "./logo.png";
 import "bootstrap/dist/css/bootstrap.min.css";
 
 class App extends Component {
@@ -13,7 +12,6 @@ class App extends Component {
       <div className="container">
         <nav className="navbar navbar-expand-lg navbar-light bg-light">
           <a class="navbar-brand" href="https://google.com" target="_blank">
-            {/* <img src={logo} width="30" height="30" alt="Google.com" /> */}
           </a>
           <Link to="/" className="navbar-brand">ToDidIt!</Link>
           <div className="collapse navbar-collapse">
